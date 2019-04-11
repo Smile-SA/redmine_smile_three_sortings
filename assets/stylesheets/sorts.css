@@ -1,0 +1,18 @@
+/*******************
+ * Smile specific 2013 #149968 Display sort icons for second and third sort column
+ *******************/
+a.sort-del           { padding-right: 20px; background-position: 100% 50%; background-repeat: no-repeat; }
+a.sort-del.asc       { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/arrow_up_del.png); }
+a.sort-del.desc      { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/arrow_down_del.png); }
+
+a.sort2, a.sort2-del { padding-right: 20px; background-position: 100% 50%; background-repeat: no-repeat; }
+a.sort2.asc          { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort2_asc.png); }
+a.sort2.desc         { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort2_desc.png); }
+a.sort2-del.asc      { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort23_asc_del.png); }
+a.sort2-del.desc     { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort23_desc_del.png); }
+
+a.sort3, a.sort3-del { padding-right: 20px; background-position: 100% 50%; background-repeat: no-repeat; }
+a.sort3.asc          { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort3_asc.png); }
+a.sort3.desc         { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort3_desc.png); }
+a.sort3-del.asc      { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort23_asc_del.png); }
+a.sort3-del.desc     { background-image: url(../../../../plugin_assets/redmine_smile_enhancements/images/sort23_desc_del.png); }
