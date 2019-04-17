@@ -14,4 +14,13 @@ Redmine plugin that adds a second and third possible sort, and a remove sort lin
 * New Application Helper **needs_sort_css?** to determine if the css file for sorts is necessary
 * Hook call to include css file in layout (**view_layouts_base_html_head**)
 
+## Views where three sorts can be used :
+
+* Issues list (issues/_list)
+* Time entries list (timelog/_list)
+* My page issues blocks (my/blocks/_issues)
+* Board (boards/show)
+* Files list (files/index)
+* Users list (users/index)
+
 Enjoy !
