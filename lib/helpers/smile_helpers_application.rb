@@ -25,7 +25,6 @@ module Smile
               if action_name == 'index'
                 if [
                   'issues', 'timelog',
-                  'journals_history', 'weekly_history', 'version_workloads',
                   'files', 'users',
                 ].include?(controller_name)
                   Rails.logger.debug "==>plugin   index"
