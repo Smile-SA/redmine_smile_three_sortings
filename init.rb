@@ -27,7 +27,7 @@ Redmine::Plugin.register plugin_name do
   author_url "mailto:Jerome BATAILLE <redmine-support@smile.fr>?subject=#{plugin_name}"
   description "Adds 2nd and 3rd possible sorts, and a remove sort link"
   url "https://github.com/Smile-SA/#{plugin_name}"
-  version '1.0.0'
+  version '1.0.1'
   requires_redmine :version_or_higher => '3.0'
 end # Redmine::Plugin.register ...
 

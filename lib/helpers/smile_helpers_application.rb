@@ -20,15 +20,12 @@ module Smile
           base.module_eval do
             # 1/ New method, RM 4.0.0 OK
             def needs_sort_css?
-              Rails.logger.debug "==>plugin hook needs_sort_css? controller_name=#{controller_name} action_name=#{action_name}"
-
               if action_name == 'index'
                 if [
                   'issues', 'timelog',
+                  'journals_history', 'weekly_history', 'version_workloads',
                   'files', 'users',
                 ].include?(controller_name)
-                  Rails.logger.debug "==>plugin   index"
-
                   return true
                 end
               end
@@ -37,15 +34,11 @@ module Smile
                 if [
                   'boards',
                 ].include?(controller_name)
-                  Rails.logger.debug "==>plugin   show"
-
                   return true
                 end
               end
 
               if action_name == 'page' && controller_name == 'my'
-                Rails.logger.debug "==>plugin   my page"
-
                 return true
               end
 

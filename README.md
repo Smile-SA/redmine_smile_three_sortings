@@ -22,5 +22,9 @@ Redmine plugin that adds a second and third possible sort, and a remove sort lin
 * Board (boards/show)
 * Files list (files/index)
 * Users list (users/index)
+* Smile specific (used in Smile plugin) :
+** **Journals history**  list (journals_history/index)
+** **Weekly history**    list (weekly_history/index)
+** **Version workloads** list (version_workloads/index)
 
 Enjoy !
