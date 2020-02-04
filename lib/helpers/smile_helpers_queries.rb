@@ -22,12 +22,14 @@ module Smile
                 css, order = nil, column.default_order
                 if column.name.to_s == query.sort_criteria.first_key
                   if query.sort_criteria.first_asc?
-                    css = 'sort asc'
+                    #31433: Use "icon icon-*" classes for sort-handler, collapsible fieldsets and collapsible versions
+                    css = 'sort asc icon icon-sorted-desc'
                     # Plugin specific : Issues list : icon to remove sort on column
                     css_del = 'sort-del asc'
                     order = 'desc'
                   else
-                    css = 'sort desc'
+                    #31433: Use "icon icon-*" classes for sort-handler, collapsible fieldsets and collapsible versions
+                    css = 'sort desc icon icon-sorted-asc'
                     # Plugin specific : Issues list : icon to remove sort on column
                     css_del = 'sort-del desc'
                     order = 'asc'

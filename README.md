@@ -27,4 +27,8 @@ Redmine plugin that adds a second and third possible sort, and a remove sort lin
 ** **Weekly history**    list (weekly_history/index)
 ** **Version workloads** list (version_workloads/index)
 
+## Changelog
+
+* **V1.0.2**  Compatibility with RM V4.1+ #31433 of RM.org for RM > 4.1
+
 Enjoy !
